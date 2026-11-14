@@ -3,7 +3,8 @@ import discord
 import asyncio
 from datetime import datetime, timezone
 
-TOKEN = "TU_TOKEN_AQUI"
+import os
+TOKEN = os.environ["DISCORD_TOKEN"]
 CHANNEL_ID = 0  # ID de tu canal de cuenta atrás
 
 # Lanzamiento GTA VI: 19 noviembre 2026
